@@ -1,5 +1,8 @@
 print('\nВведите любую строку, кроме пустого значения, например "Топинамбур" \n')
 example=input()
+while not example:
+    print('\nВведите любую строку, кроме пустого значения" \n')
+    example=input()
 print('\n ')
 print(example[0])
 print(example[-1])
